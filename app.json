@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Sakhi",
+    "slug": "sakhi-healthcare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "package": "com.sakhi.healthcare",
+      "permissions": [
+        "RECORD_AUDIO",
+        "INTERNET",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-speech",
+        {}
+      ]
+    ]
+  }
+}
